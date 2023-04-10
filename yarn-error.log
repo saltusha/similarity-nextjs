@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add @emotion/react @emotion/styled @mui/material @mui/system @mui/x-data-grid @next-auth/prisma-adapter @prisma/client @radix-ui/react-dropdown-menu @radix-ui/react-scroll-area @radix-ui/react-tabs @total-typescript/ts-reser @upstash/ratelimit @upstash/redis class-variance-authority clsx date-fns framer-motion lodash lucide-react nanoid next-auth next-themes openai prism-react-renderer prisma react-hot-toast sharp simplebar-react tailwind-merge zod
+
+PATH: 
+  C:\Users\saltusha\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\saltusha\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Users\saltusha\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\saltusha\AppData\Local\Microsoft\WindowsApps;C:\Users\saltusha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\saltusha\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@total-typescript%2fts-reser: Not found
+      at Request.params.callback [as _callback] (C:\Users\saltusha\AppData\Roaming\nvm\v16.15.0\node_modules\yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Users\saltusha\AppData\Roaming\nvm\v16.15.0\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\saltusha\AppData\Roaming\nvm\v16.15.0\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\saltusha\AppData\Roaming\nvm\v16.15.0\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "similarity",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@types/node": "18.15.11",
+      "@types/react": "18.0.34",
+      "@types/react-dom": "18.0.11",
+      "eslint": "8.38.0",
+      "eslint-config-next": "13.3.0",
+      "next": "13.3.0",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "typescript": "5.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
